@@ -11,6 +11,7 @@ config_version=4
 [application]
 
 config/name="tadkir with ali abdelrahman"
+run/main_scene="res://scenes/Control.tscn"
 boot_splash/show_image=false
 config/icon="res://icon.png"
 
