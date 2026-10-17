@@ -11,7 +11,19 @@ config_version=4
 [application]
 
 config/name="tadkir with ali abdelrahman"
+boot_splash/show_image=false
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1080
+window/size/height=1290
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/arabic-text/plugin.cfg" )
 
 [gui]
 
